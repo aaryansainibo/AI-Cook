@@ -5,7 +5,7 @@ from PIL import Image
 st.set_page_config(page_title="AI-Cook", page_icon="👨‍🍳")
 
 # --- API CONFIG ---
-client = genai.Client(api_key="AIzaSyCIqP6qROq8mLY1PItLlhrF_heGAU4CBFM")
+client = genai.Client(api_key="your api key")
 
 # --- UI ---
 st.title("👨‍🍳 AI-Cook")
